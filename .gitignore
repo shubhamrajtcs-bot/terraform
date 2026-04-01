@@ -1,0 +1,15 @@
+# Terraform files
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+.terraform.lock.hcl
+
+# Sensitive variables
+*.tfvars
+
+# AWS downloads (not needed in repo)
+aws/
+awscliv2.zip
+
+# Generated files
+cat.txt
