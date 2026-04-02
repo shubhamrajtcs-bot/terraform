@@ -1,5 +1,5 @@
 resource "random_pet" "dog" {
-  length = 2
-  prefix = "dog-"
-  separator = "-"
+  length = var.dog["lenght"]
+  prefix = var.dog["prefix"]
+  separator = var.dog["separator"]
 }
