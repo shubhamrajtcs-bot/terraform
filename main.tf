@@ -1,15 +1,15 @@
-terraform { 
+terraform {
   required_providers {
     aws = {
       source  = "hashicorp/aws"
       version = "~> 5.0"
     }
-    local={
+    local = {
       source = "hashicorp/local"
     }
-    random={
+    random = {
       source = "hashicorp/random"
-    }  
+    }
   }
 }
 

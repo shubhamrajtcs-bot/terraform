@@ -1,6 +1,6 @@
 
 
-resource "local_file" "cat"{
-    filename="cat.txt"
-    content="vjhbdejb"
+resource "local_file" "cat" {
+  filename = "cat.txt"
+  content  = "vjhbdejb"
 }

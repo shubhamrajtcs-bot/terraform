@@ -1,12 +1,12 @@
 variable "dog" {
-    type =map
+  type = map(any)
 
-    default = {
-        lenght=2
-        prefix="dog-"
-        separator="-"
+  default = {
+    lenght    = 2
+    prefix    = "dog-"
+    separator = "-"
 
-    }
+  }
 
-  
+
 }
